@@ -14,7 +14,7 @@ public:
                 count <<= 1;
             }
             a -= temp;
-            ans=ans+count;
+            ans+=count;
         }
         if ((dividend < 0) != (divisor < 0))
             ans = -ans;
